@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS basics</title>
+</head>
+
+<body>
+<h1>functions</h1>
+
+<script>
+    function add7(a) {
+  let number = 7
+  return number + a;
+
+}
+
+console.log(add7(5));
+
+
+
+
+function multiply(a, b) {
+  return a * b
+}
+
+console.log(multiply(5,5));
+
+
+function capitalize(str){
+    return str.charAt(0).toUpperCase() + str.slice(1);
+
+}
+
+let string0 = "test";
+let string1 = "TEST";
+let string2 = "teST";
+console.log(capitalize(string0));
+console.log(capitalize(string1));
+console.log(capitalize(string2));
+
+
+
+function lastLetter(a){
+    return a.slice(-1);
+}
+
+console.log(lastLetter("abcd"))
+
+</script>
+
+</body>
+
+</html>
